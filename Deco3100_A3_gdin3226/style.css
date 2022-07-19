@@ -1,0 +1,298 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    body {
+    padding: 5px;
+    overflow-x: hidden;
+    }
+    h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
+    margin: 20px 0;
+    }
+    li, dd, blockquote {
+    margin-left: 40px;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+/* -------Parallax Tutorial - Scrolling Effect using CSS and Javascript------- */
+/* -------https://www.youtube.com/watch?v=llv5kW4sz0U------- */
+
+header{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-decoration: none;
+    width:100%;
+    height:100vh;
+}
+section{
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Arial", Helvetica, sans-serif;
+    width:100%;
+    height:100vh;
+    color:black;
+}
+
+/* -------CSS RESET END------- */
+
+h1{
+    font-size: 4vw; 
+    font-weight: bold;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 6vw; 
+    background: #eee;
+    padding: 8px 24px;
+    border-radius: 16px;
+    color:black;
+}
+
+h3{
+    color: #04575B;
+    font-size: 2vw;
+}
+
+h4{
+    color: #04575B;
+    font-size: 2vw;
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    
+}
+
+h6{
+    color: #04575B;
+    font-size: 1vw;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+p{
+    padding-left: 2vw;
+    color: #405e5f;
+    font-weight: normal;
+    font-size: 1vw;
+    
+}
+
+.introp{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.h3p{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.plotly2{
+    display: flex;
+    flex-direction: row;
+}
+
+.highlight {
+    display: inline;
+    padding: .1em 0;
+    background: rgba(239,68,40,0.2);
+    color: #405e5f;
+    box-shadow: .2em 0 0 rgba(239,68,40,0.2), -.2em 0 0 rgba(239,68,40,0.2);
+    font-weight: bold;
+  }
+/* -------The CSS Box Model------- */
+/* -------https://www.w3schools.com/css/css_boxmodel.asp------- */
+
+.boxmodal{
+    background-color: white;
+    width: 300px;
+    border: 15px solid #f6996a;
+    padding: 50px;
+    margin: 20px;
+}
+
+.emphasized { 
+    font-style: italic; 
+}
+
+.bold {
+    font-weight: bold;
+}
+.textcenter{
+    text-align: center;
+    }
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+/* -------CSS Buttons------- */
+/* -------https://www.w3schools.com/css/css3_buttons.asp------- */
+.button {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    font-size: 1vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f6996a;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #a24a3c;
+    
+
+  }
+  
+  .button:hover {background-color: #e9804c}
+  
+  .button:active {
+    background-color: #e9804c;
+    box-shadow: 0 5px #a24a3c;
+    transform: translateY(4px);
+  }
+
+
+#block {
+    display: block !important;
+}
+
+
+#climate-change-problem > h3{
+    padding-left:30px;
+}
+#climate-change-problem > p{
+    padding:30px;
+}
+
+header:nth-child(1){
+    color: #04575B;
+    max-height: 400px;
+    max-width: 100%;
+    background-image: url("seaweed.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(3){
+    background:white;
+}
+
+header:nth-child(3){
+    color: #04575B;
+    max-height: 400px;
+    max-width: 100%;
+    background-image: url("seaweed2.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(4){
+    background:white;
+}
+
+header:nth-child(5){
+    color: white;
+    max-height: 400px;
+    max-width: 100%;
+    background-image: url("seaweed3.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(6){
+    background:white;
+}
+
+header:nth-child(7){
+    color: white;
+    max-height: 400px;
+    max-width: 100%;
+    background-image: url("seaweed4.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(8){
+    background:white;
+}
+
+header:nth-child(9){
+    color: white;
+    max-height: 400px;
+    max-width: 100%;
+    background-image: url("seaweed5.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(10){
+    background:white;
+}
+
+header:nth-child(11){
+    color: white;
+    max-height: 500px;
+    max-width: 100%;
+    background-image: url("seaweed6.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* -------How to Create a Progress Bar With Animations - HTML & CSS Tutorial For Beginners------- */
+/* -------https://www.youtube.com/watch?v=kjhsS4lNZ9o------- */
+
+.progress-bar{
+    position:relative;
+    width:300px;
+    height:40px;
+    border: 2px solid #266B81;
+}
+
+.progress-bar-fill{
+    position:relative;
+    bottom: 20px;
+    width:207px;
+    height:40px;
+    background: #d6ecf2;
+    transition: width 0.5s;
+}
+
+.progress-bar-value{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border: 2px solid #266B81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
